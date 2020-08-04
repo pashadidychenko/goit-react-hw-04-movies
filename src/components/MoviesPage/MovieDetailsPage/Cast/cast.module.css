@@ -1,0 +1,11 @@
+.castInfo {
+  list-style: none;
+}
+
+.castInfo li img {
+  width: 100px;
+}
+
+.castInfo li h3 {
+  list-style: disc;
+}

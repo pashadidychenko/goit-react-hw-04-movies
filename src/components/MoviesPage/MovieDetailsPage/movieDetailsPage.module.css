@@ -1,0 +1,43 @@
+.detailContainer {
+  display: flex;
+}
+
+.goBackButton {
+  border: 2px solid blue;
+  margin: 10px 0px;
+  font-size: 16px;
+}
+
+.detailsImage {
+  width: 300px;
+}
+
+.detailsInfo {
+  margin-left: 40px;
+}
+
+.detailsInfo h2 {
+  font-size: 24px;
+  color: blueviolet;
+}
+
+.detailsInfo h3 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.detailsInfo p {
+  font-size: 18px;
+  width: 500px;
+}
+
+.aditionalInfo {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.aditionalList li {
+  padding: 3px;
+  font-size: 20px;
+  font-weight: 700;
+}
