@@ -34,15 +34,15 @@ class FindMovies extends React.Component {
     if (prevRequest !== nextRequest) {
       this.setState({ moviesData: null, isLoading: true });
       Api.getMoviesData("search/movie", nextRequest)
-        .then((Data) => {
-          this.setState({ moviesData: Data });
+        .then((data) => {
+          this.setState({ moviesData: data });
         })
         .catch((error) => console.log(error))
         .finally(() => this.setState({ searchQuery: "", isLoading: false }));
     }
   }
   inputVlue = (el) => {
-    let textValue = el.target.value;
+    const textValue = el.target.value;
     this.setState({ searchQuery: textValue });
   };
 
